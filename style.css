@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(212, 216, 219);
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+img {
+    object-fit: cover;
+    width: 201px;
+    height: 201px;
+}
+
+.icon {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    }
+
+span .icon {
+    width: 7%;
+    height: 7%;
+    margin-left: 3%;
+    filter: invert(100%);
+}
+
+h3 {
+    font-weight: 300;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+header{
+    padding: 1.5% 0 2.5% 0;
+    background-color: steelblue;
+    color: white;
+    text-align: left;
+    font-size: 4em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.content-header{
+    margin: auto;
+    width: 70%;
+}
+
+.main-section{
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.main-aside{
+    background-color: white;
+    padding: 6%;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.main-presentation-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.presentation-section {
+  margin: 0 0 2% 0;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.presentation-section:hover{
+    transform: scale(1.05);
+}
+
+.text-section {
+    padding: 4%;
+}
+.text-section > p {
+    margin: 5% 0;
+}
+
+.text-section a{
+    margin-right: 4%;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
